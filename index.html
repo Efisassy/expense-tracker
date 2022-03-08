@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form">
+            <div class="intro">
+                <h1>My Budget</h1>
+                <button>New Entry</button>
+            </div>
+            <div class="you">
+                <label>Description</label>
+                <input id="text" type="text" name="" id="" placeholder="Enter text">
+            </div>
+
+            <div class="you">
+                <label>Amount(+/-)</label>
+                <input id="amount" type="number" name="" id="" placeholder="Enter value">
+            </div>
+
+            <div class="add">
+                <button id="transact" onclick="transaction()">ADD TRANSACTION</button>
+            </div>
+            <div class="small">
+                <div class="light">
+                    <h4>Inflow</h4>
+                    <p id="inflow">0.00$</p>
+                </div>
+
+                <div class="light">
+                    <h4>Outflow</h4>
+                    <p id="outflow">0.00$</p>
+                </div>
+
+                <div class="light">
+                    <h4>Balance</h4>
+                    <p id="balance">0.00$</p>
+                </div>
+
+            </div>
+
+            <div>
+                <h3>History</h3>
+                <ul></ul>
+            </div>
+
+           
+             
+        </form>
+    </div>
+  
+    
+<script src="script.js"></script>
+</body>
+</html> 
